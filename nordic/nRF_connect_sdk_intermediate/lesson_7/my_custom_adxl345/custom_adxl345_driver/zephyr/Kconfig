@@ -1,0 +1,20 @@
+# BME280 custom driver options 
+
+# Copyright (c) 2019 Nordic Semiconductor
+# SPDX-License-Identifier: Apache-2.0
+
+menuconfig CUSTOM_ADXL345_DRIVER
+	bool "ADXL345 Three Axis accelerometer"
+	depends on SPI
+
+if CUSTOM_ADXL345_DRIVER
+
+source "subsys/logging/Kconfig.template.log_config"
+# STEP 3 - Add a custom driver initialization priority
+config DRIVER_INIT_PRIORITY
+	int "Init priority"
+	default 71
+	help
+	  Custom device driver initialization priority, This needs be more than CONFIG_SPI_INIT_PRIORITY.
+
+endif

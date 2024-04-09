@@ -1,0 +1,7 @@
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/include/zephyr/drivers/gpio.h:1713:19:gpio_add_callback	8	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/include/zephyr/drivers/gpio.h:961:19:z_impl_gpio_pin_configure	24	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/include/zephyr/drivers/gpio.h:1024:19:gpio_pin_configure_dt	8	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/include/zephyr/drivers/gpio.h:1688:20:gpio_init_callback	8	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/include/zephyr/drivers/gpio.h:862:19:z_impl_gpio_pin_interrupt_configure	16	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/drivers/sensor/ina23x/ina23x_trigger.c:13:13:ina23x_gpio_callback	8	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/drivers/sensor/ina23x/ina23x_trigger.c:23:5:ina23x_trigger_mode_init	16	static

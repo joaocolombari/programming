@@ -1,0 +1,2 @@
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/arch/arm/core/cortex_m/prep_c.c:74:20:z_arm_floating_point_init	0	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/arch/arm/core/cortex_m/prep_c.c:182:6:z_arm_prep_c	8	static

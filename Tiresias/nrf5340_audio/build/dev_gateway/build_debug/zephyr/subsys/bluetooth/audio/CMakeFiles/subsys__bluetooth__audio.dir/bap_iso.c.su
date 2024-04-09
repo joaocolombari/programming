@@ -1,0 +1,17 @@
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/bap_iso.c:140:31:bap_iso_get_iso_dir	0	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/bap_iso.c:197:13:is_unicast_client_ep	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/bap_iso.c:23:20:bt_bap_iso_new	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/bap_iso.c:43:20:bt_bap_iso_ref	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/bap_iso.c:101:13:bt_bap_iso_find_cb	16	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/bap_iso.c:65:6:bt_bap_iso_unref	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/bap_iso.c:76:6:bt_bap_iso_foreach	24	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/bap_iso.c:114:20:bt_bap_iso_find	24	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/bap_iso.c:127:6:bt_bap_iso_init	0	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/bap_iso.c:160:6:bt_bap_iso_configure_data_path	24	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/bap_iso.c:202:6:bt_bap_iso_bind_ep	16	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/bap_iso.c:221:6:bt_bap_iso_unbind_ep	16	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/bap_iso.c:242:19:bt_bap_iso_get_ep	16	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/bap_iso.c:257:19:bt_bap_iso_get_paired_ep	0	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/bap_iso.c:267:6:bt_bap_iso_bind_stream	16	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/bap_iso.c:293:6:bt_bap_iso_unbind_stream	32	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/bap_iso.c:319:23:bt_bap_iso_get_stream	16	static

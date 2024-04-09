@@ -1,0 +1,25 @@
+{
+    "format-version": 0,
+    "time": 1712617143,
+    "files": [
+        {
+            "load_address": 49664,
+            "version_MCUBOOT": "0.0.0+0",
+            "type": "application",
+            "board": "nrf5340_audio_dk_nrf5340_cpuapp",
+            "soc": "nRF5340_CPUAPP_QKAA",
+            "size": 139820,
+            "file": "app_update.bin",
+            "modtime": 1712617143
+        }
+    ],
+    "name": "8.3",
+    "firmware": {
+        "zephyr": {
+            "revision": "8e15526ee82edb17937d6e4bbdbfe9c095f87f28-dirty"
+        },
+        "nrf": {
+            "revision": "3190fa573ff67bfb745028f203e9d0ea4144a1ce-dirty"
+        }
+    }
+}

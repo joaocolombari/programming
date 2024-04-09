@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "custom_adxl345_driver.h": "c",
+        "typeinfo": "c",
+        "i2c.h": "c"
+    }
+}

@@ -1,0 +1,7 @@
+/opt/nordic/ncs/v2.6.0/zephyr/include/zephyr/sys/byteorder.h:639:20:sys_mem_swap	4	static
+/opt/nordic/ncs/v2.6.0/zephyr/include/zephyr/sys/byteorder.h:613:20:sys_memcpy_swap	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/host/crypto.c:35:12:prng_reseed	64	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/host/crypto.c:58:5:prng_init	16	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/host/crypto.c:79:5:bt_rand	16	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/host/crypto.c:114:5:bt_encrypt_le	208	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/host/crypto.c:146:5:bt_encrypt_be	192	static

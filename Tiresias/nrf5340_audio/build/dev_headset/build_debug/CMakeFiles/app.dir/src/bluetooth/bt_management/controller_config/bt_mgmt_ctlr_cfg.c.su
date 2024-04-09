@@ -1,0 +1,5 @@
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_management/controller_config/bt_mgmt_ctlr_cfg.c:152:13:ctlr_poll_timer_handler	8	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_management/controller_config/bt_mgmt_ctlr_cfg.c:162:13:wdt_timeout_cb	64	dynamic,bounded
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_management/controller_config/bt_mgmt_ctlr_cfg.c:167:5:bt_mgmt_ctlr_cfg_manufacturer_get	128	dynamic,bounded
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_management/controller_config/bt_mgmt_ctlr_cfg.c:140:13:work_ctlr_poll_handler	104	dynamic,bounded
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_management/controller_config/bt_mgmt_ctlr_cfg.c:203:5:bt_mgmt_ctlr_cfg_init	32	static

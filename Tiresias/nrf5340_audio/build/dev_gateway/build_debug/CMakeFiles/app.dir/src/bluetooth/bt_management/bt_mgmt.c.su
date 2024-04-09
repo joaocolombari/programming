@@ -1,0 +1,12 @@
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_management/bt_mgmt.c:217:13:security_changed_cb	48	static
+/opt/nordic/ncs/v2.6.0/zephyr/include/zephyr/bluetooth/addr.h:242:19:bt_addr_le_to_str	64	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_management/bt_mgmt.c:175:13:disconnected_cb	136	dynamic,bounded
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_management/bt_mgmt.c:75:13:connected_cb	176	dynamic,bounded
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_management/bt_mgmt.c:56:13:conn_state_connected_check	96	dynamic,bounded
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_management/bt_mgmt.c:248:13:bt_enabled_cb	16	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_management/bt_mgmt.c:335:12:local_identity_addr_print	120	dynamic,bounded
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_management/bt_mgmt.c:358:5:bt_mgmt_bonding_clear	8	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_management/bt_mgmt.c:260:12:bonding_clear_check	16	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_management/bt_mgmt.c:375:5:bt_mgmt_pa_sync_delete	8	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_management/bt_mgmt.c:393:5:bt_mgmt_conn_disconnect	64	dynamic,bounded
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_management/bt_mgmt.c:411:5:bt_mgmt_init	8	static

@@ -1,0 +1,7 @@
+v 4
+file . "aludec.vhd" "e2792e603de2b7f6920eed5d4fd482602ed91e38" "20231130172413.653":
+  entity aludec at 10( 292) + 0 on 13;
+  architecture behave of aludec at 23( 560) + 0 on 14;
+file . "risc_pkg.vhd" "860b9d619a4db25a5dca11b771f23d158cf22d20" "20231130172413.652":
+  package riscv_pkg at 10( 283) + 0 on 11 body;
+  package body riscv_pkg at 147( 4104) + 0 on 12;

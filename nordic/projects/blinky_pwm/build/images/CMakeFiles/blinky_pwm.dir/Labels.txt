@@ -1,0 +1,13 @@
+# Target labels
+ blinky_pwm
+# Source files and their labels
+/Users/joaovitor/Documents/VSCode/nordic/blinky_pwm/build/images/CMakeFiles/blinky_pwm
+/Users/joaovitor/Documents/VSCode/nordic/blinky_pwm/build/images/CMakeFiles/blinky_pwm.rule
+/Users/joaovitor/Documents/VSCode/nordic/blinky_pwm/build/images/CMakeFiles/blinky_pwm-complete.rule
+/Users/joaovitor/Documents/VSCode/nordic/blinky_pwm/build/images/blinky_pwm-prefix/src/blinky_pwm-stamp/blinky_pwm-build.rule
+/Users/joaovitor/Documents/VSCode/nordic/blinky_pwm/build/images/blinky_pwm-prefix/src/blinky_pwm-stamp/blinky_pwm-configure.rule
+/Users/joaovitor/Documents/VSCode/nordic/blinky_pwm/build/images/blinky_pwm-prefix/src/blinky_pwm-stamp/blinky_pwm-download.rule
+/Users/joaovitor/Documents/VSCode/nordic/blinky_pwm/build/images/blinky_pwm-prefix/src/blinky_pwm-stamp/blinky_pwm-install.rule
+/Users/joaovitor/Documents/VSCode/nordic/blinky_pwm/build/images/blinky_pwm-prefix/src/blinky_pwm-stamp/blinky_pwm-mkdir.rule
+/Users/joaovitor/Documents/VSCode/nordic/blinky_pwm/build/images/blinky_pwm-prefix/src/blinky_pwm-stamp/blinky_pwm-patch.rule
+/Users/joaovitor/Documents/VSCode/nordic/blinky_pwm/build/images/blinky_pwm-prefix/src/blinky_pwm-stamp/blinky_pwm-update.rule

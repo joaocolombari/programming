@@ -1,0 +1,5 @@
+/opt/nordic/ncs/v2.6.0/modules/lib/cmsis-dsp/Source/TransformFunctions/arm_cfft_radix4_f16.c:169:6:arm_radix4_butterfly_f16.constprop	80	static
+/opt/nordic/ncs/v2.6.0/modules/lib/cmsis-dsp/Source/TransformFunctions/arm_cfft_radix4_f16.c:73:6:arm_cfft_radix4by2_f16	24	static
+/opt/nordic/ncs/v2.6.0/modules/lib/cmsis-dsp/Source/TransformFunctions/arm_cfft_radix4_f16.c:169:6:arm_radix4_butterfly_f16	80	static
+/opt/nordic/ncs/v2.6.0/modules/lib/cmsis-dsp/Source/TransformFunctions/arm_cfft_radix4_f16.c:673:6:arm_radix4_butterfly_inverse_f16	80	static
+/opt/nordic/ncs/v2.6.0/modules/lib/cmsis-dsp/Source/TransformFunctions/arm_cfft_radix4_f16.c:129:6:arm_cfft_radix4_f16	16	static

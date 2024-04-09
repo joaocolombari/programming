@@ -1,0 +1,6 @@
+/opt/nordic/ncs/v2.6.0/modules/hal/nordic/nrfx/hal/nrf_clock.h:927:24:nrf_clock_is_running	8	static
+/opt/nordic/ncs/v2.6.0/modules/hal/nordic/nrfx/drivers/include/nrfx_clock.h:347:25:nrfx_clock_hfclk_is_running	16	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/utils/nrf5340_audio_dk.c:23:12:hfclock_config_and_start	8	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/utils/nrf5340_audio_dk.c:76:12:channel_assign_check	16	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/utils/nrf5340_audio_dk.c:42:12:leds_set	16	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/utils/nrf5340_audio_dk.c:106:5:nrf5340_audio_dk_init	8	static

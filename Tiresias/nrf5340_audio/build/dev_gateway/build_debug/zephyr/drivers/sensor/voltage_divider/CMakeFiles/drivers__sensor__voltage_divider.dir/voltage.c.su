@@ -1,0 +1,6 @@
+/opt/nordic/ncs/v2.6.0/zephyr/include/zephyr/drivers/adc.h:642:19:adc_channel_setup_dt	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/include/zephyr/drivers/adc.h:776:19:adc_raw_to_millivolts	24	static
+/opt/nordic/ncs/v2.6.0/zephyr/include/zephyr/drivers/adc.h:804:19:adc_raw_to_millivolts_dt	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/drivers/sensor/voltage_divider/voltage.c:48:12:get	24	static
+/opt/nordic/ncs/v2.6.0/zephyr/drivers/sensor/voltage_divider/voltage.c:30:12:fetch	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/drivers/sensor/voltage_divider/voltage.c:118:12:voltage_init	16	static

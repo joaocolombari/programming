@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/joaovitor/Documents/VSCode/nordic/blinky_pwm/build/images/CMakeFiles/blinky_pwm"
+		},
+		{
+			"file" : "/Users/joaovitor/Documents/VSCode/nordic/blinky_pwm/build/images/CMakeFiles/blinky_pwm.rule"
+		},
+		{
+			"file" : "/Users/joaovitor/Documents/VSCode/nordic/blinky_pwm/build/images/CMakeFiles/blinky_pwm-complete.rule"
+		},
+		{
+			"file" : "/Users/joaovitor/Documents/VSCode/nordic/blinky_pwm/build/images/blinky_pwm-prefix/src/blinky_pwm-stamp/blinky_pwm-build.rule"
+		},
+		{
+			"file" : "/Users/joaovitor/Documents/VSCode/nordic/blinky_pwm/build/images/blinky_pwm-prefix/src/blinky_pwm-stamp/blinky_pwm-configure.rule"
+		},
+		{
+			"file" : "/Users/joaovitor/Documents/VSCode/nordic/blinky_pwm/build/images/blinky_pwm-prefix/src/blinky_pwm-stamp/blinky_pwm-download.rule"
+		},
+		{
+			"file" : "/Users/joaovitor/Documents/VSCode/nordic/blinky_pwm/build/images/blinky_pwm-prefix/src/blinky_pwm-stamp/blinky_pwm-install.rule"
+		},
+		{
+			"file" : "/Users/joaovitor/Documents/VSCode/nordic/blinky_pwm/build/images/blinky_pwm-prefix/src/blinky_pwm-stamp/blinky_pwm-mkdir.rule"
+		},
+		{
+			"file" : "/Users/joaovitor/Documents/VSCode/nordic/blinky_pwm/build/images/blinky_pwm-prefix/src/blinky_pwm-stamp/blinky_pwm-patch.rule"
+		},
+		{
+			"file" : "/Users/joaovitor/Documents/VSCode/nordic/blinky_pwm/build/images/blinky_pwm-prefix/src/blinky_pwm-stamp/blinky_pwm-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"blinky_pwm"
+		],
+		"name" : "blinky_pwm"
+	}
+}

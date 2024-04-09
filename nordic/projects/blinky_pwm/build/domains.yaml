@@ -1,0 +1,7 @@
+default: blinky_pwm
+build_dir: /Users/joaovitor/Documents/VSCode/nordic/blinky_pwm/build
+domains:
+  - name: blinky_pwm
+    build_dir: /Users/joaovitor/Documents/VSCode/nordic/blinky_pwm/build/blinky_pwm
+flash_order:
+  - blinky_pwm

@@ -1,0 +1,12 @@
+/opt/nordic/ncs/v2.6.0/zephyr/kernel/mailbox.c:117:12:mbox_message_match	0	static
+/opt/nordic/ncs/v2.6.0/zephyr/kernel/mailbox.c:57:12:init_mbox_module	16	static
+/opt/nordic/ncs/v2.6.0/zephyr/kernel/mailbox.c:215:12:mbox_message_put	56	static
+/opt/nordic/ncs/v2.6.0/zephyr/kernel/mailbox.c:39:20:mbox_async_alloc	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/kernel/include/ksched.h:75:20:z_reschedule_unlocked	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/kernel/mailbox.c:160:13:mbox_message_dispose	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/kernel/mailbox.c:92:6:k_mbox_init	0	static
+/opt/nordic/ncs/v2.6.0/zephyr/kernel/mailbox.c:300:5:k_mbox_put	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/kernel/mailbox.c:316:6:k_mbox_async_put	32	static
+/opt/nordic/ncs/v2.6.0/zephyr/kernel/mailbox.c:340:6:k_mbox_data_get	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/kernel/mailbox.c:372:12:mbox_message_data_check	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/kernel/mailbox.c:387:5:k_mbox_get	48	static

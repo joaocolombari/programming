@@ -1,0 +1,9 @@
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/bap_unicast_server.c:24:5:bt_bap_unicast_server_register_cb	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/bap_unicast_server.c:48:5:bt_bap_unicast_server_unregister_cb	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/bap_unicast_server.c:66:5:bt_bap_unicast_server_reconfig	32	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/bap_unicast_server.c:92:5:bt_bap_unicast_server_start	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/bap_unicast_server.c:115:5:bt_bap_unicast_server_metadata	72	dynamic,bounded
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/bap_unicast_server.c:146:5:bt_bap_unicast_server_disable	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/bap_unicast_server.c:151:5:bt_bap_unicast_server_release	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/bap_unicast_server.c:156:5:bt_bap_unicast_server_config_ase	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/bap_unicast_server.c:163:6:bt_bap_unicast_server_foreach_ep	8	static

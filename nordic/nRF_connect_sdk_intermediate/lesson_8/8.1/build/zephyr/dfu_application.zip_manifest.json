@@ -1,0 +1,25 @@
+{
+    "format-version": 0,
+    "time": 1712600460,
+    "files": [
+        {
+            "load_address": 81920,
+            "version_MCUBOOT": "0.0.0+0",
+            "type": "application",
+            "board": "nrf5340_audio_dk_nrf5340_cpuapp",
+            "soc": "nRF5340_CPUAPP_QKAA",
+            "size": 65528,
+            "file": "app_update.bin",
+            "modtime": 1712600460
+        }
+    ],
+    "name": "8.1",
+    "firmware": {
+        "zephyr": {
+            "revision": "c28ad46f0f202b8b3ea67af17a30711512496387-dirty"
+        },
+        "nrf": {
+            "revision": "3190fa573ff67bfb745028f203e9d0ea4144a1ce"
+        }
+    }
+}

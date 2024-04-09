@@ -1,0 +1,13 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		
+		{
+			"type": "nrf-connect",
+			"request": "launch",
+			"name": "Launch spi_mine_slave/build",
+			"config": "/Users/joaovitor/Documents/VSCode/Tiresias/spi_mine/spi_mine_slave/build",
+			"runToEntryPoint": "main"
+		}
+	]
+}

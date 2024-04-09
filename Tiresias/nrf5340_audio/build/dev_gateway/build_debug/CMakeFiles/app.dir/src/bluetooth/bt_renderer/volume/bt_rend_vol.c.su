@@ -1,0 +1,13 @@
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_renderer/volume/bt_rend_vol.c:49:13:vcs_client_peer_exists	24	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_renderer/volume/bt_rend_vol.c:28:12:vcs_client_peer_index_free_get	8	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_renderer/volume/bt_rend_vol.c:115:13:vcs_flags_ctlr_cb_handler	8	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_renderer/volume/bt_rend_vol.c:78:13:vcs_state_ctlr_cb_handler	16	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_renderer/volume/bt_rend_vol.c:173:13:vcs_discover_cb_handler	8	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_renderer/volume/bt_rend_vol.c:183:5:bt_rend_vol_set	24	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_renderer/volume/bt_rend_vol.c:208:5:bt_rend_vol_up	24	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_renderer/volume/bt_rend_vol.c:233:5:bt_rend_vol_down	24	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_renderer/volume/bt_rend_vol.c:258:5:bt_rend_vol_mute	24	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_renderer/volume/bt_rend_vol.c:283:5:bt_rend_vol_unmute	24	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_renderer/volume/bt_rend_vol.c:308:5:bt_rend_vol_discover	8	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_renderer/volume/bt_rend_vol.c:331:5:bt_rend_vol_ctlr_init	8	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_renderer/volume/bt_rend_vol.c:347:5:bt_rend_vol_rend_init	8	static

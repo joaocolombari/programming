@@ -1,0 +1,13 @@
+# Target labels
+ b0n_subimage
+# Source files and their labels
+/Users/joaovitor/Documents/VSCode/nordic/BLE_fundamentals/lesson1/blefund_less1_exer1/build/hci_rpmsg/modules/nrf/samples/CMakeFiles/b0n_subimage
+/Users/joaovitor/Documents/VSCode/nordic/BLE_fundamentals/lesson1/blefund_less1_exer1/build/hci_rpmsg/modules/nrf/samples/CMakeFiles/b0n_subimage.rule
+/Users/joaovitor/Documents/VSCode/nordic/BLE_fundamentals/lesson1/blefund_less1_exer1/build/hci_rpmsg/modules/nrf/samples/CMakeFiles/b0n_subimage-complete.rule
+/Users/joaovitor/Documents/VSCode/nordic/BLE_fundamentals/lesson1/blefund_less1_exer1/build/hci_rpmsg/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-build.rule
+/Users/joaovitor/Documents/VSCode/nordic/BLE_fundamentals/lesson1/blefund_less1_exer1/build/hci_rpmsg/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-configure.rule
+/Users/joaovitor/Documents/VSCode/nordic/BLE_fundamentals/lesson1/blefund_less1_exer1/build/hci_rpmsg/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-download.rule
+/Users/joaovitor/Documents/VSCode/nordic/BLE_fundamentals/lesson1/blefund_less1_exer1/build/hci_rpmsg/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-install.rule
+/Users/joaovitor/Documents/VSCode/nordic/BLE_fundamentals/lesson1/blefund_less1_exer1/build/hci_rpmsg/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-mkdir.rule
+/Users/joaovitor/Documents/VSCode/nordic/BLE_fundamentals/lesson1/blefund_less1_exer1/build/hci_rpmsg/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-patch.rule
+/Users/joaovitor/Documents/VSCode/nordic/BLE_fundamentals/lesson1/blefund_less1_exer1/build/hci_rpmsg/modules/nrf/samples/b0n_subimage-prefix/src/b0n_subimage-stamp/b0n_subimage-update.rule

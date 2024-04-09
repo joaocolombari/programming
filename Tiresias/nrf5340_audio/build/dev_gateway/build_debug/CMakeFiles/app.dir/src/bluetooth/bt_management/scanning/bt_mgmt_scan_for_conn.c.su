@@ -1,0 +1,6 @@
+/opt/nordic/ncs/v2.6.0/zephyr/include/zephyr/bluetooth/addr.h:242:19:bt_addr_le_to_str	64	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_management/scanning/bt_mgmt_scan_for_conn.c:26:13:bond_check	40	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_management/scanning/bt_mgmt_scan_for_conn.c:149:13:scan_recv_cb	8	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_management/scanning/bt_mgmt_scan_for_conn.c:97:13:device_name_check	136	dynamic,bounded
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_management/scanning/bt_mgmt_scan_for_conn.c:36:13:bond_connect	168	dynamic,bounded
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_management/scanning/bt_mgmt_scan_for_conn.c:182:5:bt_mgmt_scan_for_conn_start	16	static

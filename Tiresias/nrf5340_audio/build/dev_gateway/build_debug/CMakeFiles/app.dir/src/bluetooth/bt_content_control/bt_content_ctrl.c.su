@@ -1,0 +1,7 @@
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_content_control/bt_content_ctrl.c:22:13:media_control_cb	72	dynamic,bounded
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_content_control/bt_content_ctrl.c:37:5:bt_content_ctrl_start	8	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_content_control/bt_content_ctrl.c:60:5:bt_content_ctrl_stop	8	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_content_control/bt_content_ctrl.c:83:5:bt_content_ctrl_conn_disconnected	0	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_content_control/bt_content_ctrl.c:97:5:bt_content_ctrl_discover	0	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_content_control/bt_content_ctrl.c:112:5:bt_content_ctrl_uuid_populate	0	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_content_control/bt_content_ctrl.c:125:5:bt_content_ctrl_init	8	static

@@ -1,0 +1,6 @@
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/task_wdt/task_wdt.c:54:13:schedule_next_timeout	24	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/task_wdt/task_wdt.c:102:13:task_wdt_trigger	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/task_wdt/task_wdt.c:126:5:task_wdt_init	24	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/task_wdt/task_wdt.c:199:5:task_wdt_delete	16	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/task_wdt/task_wdt.c:216:5:task_wdt_feed	24	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/task_wdt/task_wdt.c:154:5:task_wdt_add	32	static

@@ -1,0 +1,7 @@
+v 4
+file . "datapath.vhd" "576ab864b0dd8366337ff203deed4df426086b51" "20231212163850.237":
+  entity datapath at 16( 570) + 0 on 21;
+  architecture struct of datapath at 40( 1174) + 0 on 22;
+file . "risc_pkg.vhd" "4e20a1c1a7f33f5e12622cb16d6167db95dd33e9" "20231212163850.236":
+  package riscv_pkg at 16( 555) + 0 on 19 body;
+  package body riscv_pkg at 133( 3901) + 0 on 20;

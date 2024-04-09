@@ -1,0 +1,11 @@
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/kernel/init.c:263:13:z_sys_init_run_level	16	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/kernel/init.c:384:13:init_idle_thread	48	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/kernel/init.c:322:13:bg_thread_main	8	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/kernel/init.c:489:27:switch_to_main_thread	8	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/kernel/init.c:142:13:z_early_memset	8	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/kernel/init.c:155:13:z_early_memcpy	8	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/kernel/init.c:166:6:z_bss_zero	8	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/kernel/init.c:413:6:z_init_cpu	8	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/kernel/init.c:456:14:prepare_multithreading	40	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/kernel/init.c:507:13:z_early_rand_get	24	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/kernel/init.c:551:20:z_cstart	272	static

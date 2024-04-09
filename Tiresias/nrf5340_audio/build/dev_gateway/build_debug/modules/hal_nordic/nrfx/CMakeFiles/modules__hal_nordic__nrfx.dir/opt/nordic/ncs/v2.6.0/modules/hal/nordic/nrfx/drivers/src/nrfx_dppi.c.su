@@ -1,0 +1,12 @@
+/opt/nordic/ncs/v2.6.0/modules/hal/nordic/nrfx/drivers/src/nrfx_dppi.c:69:6:nrfx_dppi_free	4	static
+/opt/nordic/ncs/v2.6.0/modules/hal/nordic/nrfx/drivers/src/nrfx_dppi.c:96:12:nrfx_dppi_channel_alloc	8	static
+/opt/nordic/ncs/v2.6.0/modules/hal/nordic/nrfx/drivers/src/nrfx_dppi.c:101:12:nrfx_dppi_channel_free	8	static
+/opt/nordic/ncs/v2.6.0/modules/hal/nordic/nrfx/drivers/src/nrfx_dppi.c:107:12:nrfx_dppi_channel_enable	8	static
+/opt/nordic/ncs/v2.6.0/modules/hal/nordic/nrfx/drivers/src/nrfx_dppi.c:123:12:nrfx_dppi_channel_disable	8	static
+/opt/nordic/ncs/v2.6.0/modules/hal/nordic/nrfx/drivers/src/nrfx_dppi.c:140:12:nrfx_dppi_group_alloc	8	static
+/opt/nordic/ncs/v2.6.0/modules/hal/nordic/nrfx/drivers/src/nrfx_dppi.c:145:12:nrfx_dppi_group_free	8	static
+/opt/nordic/ncs/v2.6.0/modules/hal/nordic/nrfx/drivers/src/nrfx_dppi.c:151:12:nrfx_dppi_channel_include_in_group	16	static
+/opt/nordic/ncs/v2.6.0/modules/hal/nordic/nrfx/drivers/src/nrfx_dppi.c:171:12:nrfx_dppi_channel_remove_from_group	16	static
+/opt/nordic/ncs/v2.6.0/modules/hal/nordic/nrfx/drivers/src/nrfx_dppi.c:191:12:nrfx_dppi_group_clear	8	static
+/opt/nordic/ncs/v2.6.0/modules/hal/nordic/nrfx/drivers/src/nrfx_dppi.c:207:12:nrfx_dppi_group_enable	8	static
+/opt/nordic/ncs/v2.6.0/modules/hal/nordic/nrfx/drivers/src/nrfx_dppi.c:223:12:nrfx_dppi_group_disable	8	static

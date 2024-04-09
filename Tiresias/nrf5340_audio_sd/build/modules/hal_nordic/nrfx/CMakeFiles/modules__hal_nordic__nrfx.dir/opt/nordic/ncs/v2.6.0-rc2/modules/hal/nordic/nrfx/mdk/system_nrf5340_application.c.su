@@ -1,0 +1,14 @@
+/opt/nordic/ncs/v2.6.0-rc2/modules/hal/cmsis/CMSIS/Core/Include/core_cm33.h:2711:34:__NVIC_SystemReset	0	static
+/opt/nordic/ncs/v2.6.0-rc2/modules/hal/nordic/nrfx/mdk/nrf53_erratas.h:1944:13:nrf53_errata_42	0	static
+/opt/nordic/ncs/v2.6.0-rc2/modules/hal/nordic/nrfx/mdk/nrf53_erratas.h:2169:13:nrf53_errata_46	0	static
+/opt/nordic/ncs/v2.6.0-rc2/modules/hal/nordic/nrfx/mdk/nrf53_erratas.h:2285:13:nrf53_errata_49	0	static
+/opt/nordic/ncs/v2.6.0-rc2/modules/hal/nordic/nrfx/mdk/nrf53_erratas.h:2620:13:nrf53_errata_55	0	static
+/opt/nordic/ncs/v2.6.0-rc2/modules/hal/nordic/nrfx/mdk/nrf53_erratas.h:2904:13:nrf53_errata_64	0	static
+/opt/nordic/ncs/v2.6.0-rc2/modules/hal/nordic/nrfx/mdk/nrf53_erratas.h:3129:13:nrf53_errata_69	0	static
+/opt/nordic/ncs/v2.6.0-rc2/modules/hal/nordic/nrfx/mdk/nrf53_erratas.h:4340:13:nrf53_errata_97	0	static
+/opt/nordic/ncs/v2.6.0-rc2/modules/hal/nordic/nrfx/mdk/nrf53_erratas.h:5545:13:nrf53_errata_140	0	static
+/opt/nordic/ncs/v2.6.0-rc2/modules/hal/nordic/nrfx/mdk/nrf53_erratas.h:5981:13:nrf53_errata_160	0	static
+/opt/nordic/ncs/v2.6.0-rc2/modules/hal/nordic/nrfx/mdk/system_nrf5340_application.c:63:6:SystemCoreClockUpdate	0	static
+/opt/nordic/ncs/v2.6.0-rc2/modules/hal/nordic/nrfx/mdk/system_nrf5340_application.c:72:6:SystemInit	8	static
+/opt/nordic/ncs/v2.6.0-rc2/modules/hal/nordic/nrfx/mdk/system_nrf5340_application.c:287:6:SystemStoreFICRNS	0	static
+/opt/nordic/ncs/v2.6.0-rc2/modules/hal/nordic/nrfx/mdk/system_nrf5340_application.c:309:6:SystemLockFICRNS	0	static

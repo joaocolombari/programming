@@ -1,0 +1,3 @@
+osource "/Users/joaovitor/Documents/VSCode/nordic/BLE_fundamentals/lesson5/blefund_less5_exer1/boards/shields/*/Kconfig.defconfig"
+osource "/Users/joaovitor/Documents/VSCode/nordic/BLE_fundamentals/lesson5/blefund_less5_exer1/./boards/shields/*/Kconfig.defconfig"
+osource "/opt/nordic/ncs/v2.5.0-rc1/nrf/boards/shields/*/Kconfig.defconfig"

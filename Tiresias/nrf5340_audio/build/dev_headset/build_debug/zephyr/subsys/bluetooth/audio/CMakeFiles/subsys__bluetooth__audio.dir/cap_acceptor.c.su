@@ -1,0 +1,2 @@
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/cap_acceptor.c:24:5:bt_cap_acceptor_register	16	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/cap_acceptor.c:69:6:bt_cap_acceptor_ccid_exist	0	static

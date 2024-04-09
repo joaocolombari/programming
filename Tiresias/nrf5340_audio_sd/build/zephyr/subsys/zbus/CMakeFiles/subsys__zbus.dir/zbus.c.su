@@ -1,0 +1,14 @@
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/include/zephyr/zbus/zbus.h:563:21:zbus_chan_msg	8	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/include/zephyr/zbus/zbus.h:600:24:zbus_chan_msg_size	8	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/zbus/zbus.c:49:5:_zbus_init	8	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/zbus/zbus.c:82:19:_zbus_notify_observer	24	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/zbus/zbus.c:115:19:_zbus_vded_exec	120	dynamic,bounded
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/zbus/zbus.c:194:5:zbus_chan_pub	40	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/zbus/zbus.c:222:5:zbus_chan_read	24	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/zbus/zbus.c:240:5:zbus_chan_notify	32	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/zbus/zbus.c:261:5:zbus_chan_claim	16	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/zbus/zbus.c:275:5:zbus_chan_finish	8	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/zbus/zbus.c:285:5:zbus_sub_wait	24	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/zbus/zbus.c:299:5:zbus_sub_wait_msg	24	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/zbus/zbus.c:327:5:zbus_obs_set_chan_notification_mask	8	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/zbus/zbus.c:351:5:zbus_obs_is_chan_notification_masked	8	static

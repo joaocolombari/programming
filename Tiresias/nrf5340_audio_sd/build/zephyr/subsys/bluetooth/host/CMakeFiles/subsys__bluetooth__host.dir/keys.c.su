@@ -1,0 +1,15 @@
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/include/zephyr/bluetooth/addr.h:137:20:bt_addr_le_copy	0	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/include/zephyr/bluetooth/addr.h:127:20:bt_addr_copy	0	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/bluetooth/host/keys.c:429:13:id_add	8	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/bluetooth/host/keys.c:83:17:bt_keys_get_addr	32	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/bluetooth/host/keys.c:154:6:bt_foreach_bond	32	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/bluetooth/host/keys.c:174:6:bt_keys_foreach_type	24	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/bluetooth/host/keys.c:436:12:keys_commit	8	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/bluetooth/host/keys.c:188:17:bt_keys_find	24	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/bluetooth/host/keys.c:229:17:bt_keys_find_irk	24	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/bluetooth/host/keys.c:278:17:bt_keys_find_addr	16	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/bluetooth/host/keys.c:296:6:bt_keys_add_type	8	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/bluetooth/host/keys.c:206:17:bt_keys_get_type	24	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/bluetooth/host/keys.c:303:6:bt_keys_clear	8	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/bluetooth/host/keys.c:340:12:keys_set	232	dynamic,bounded
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/bluetooth/host/keys.c:322:5:bt_keys_store	8	static

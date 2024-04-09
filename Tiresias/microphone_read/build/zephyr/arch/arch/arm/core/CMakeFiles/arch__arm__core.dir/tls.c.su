@@ -1,0 +1,2 @@
+/opt/nordic/ncs/v2.6.0/zephyr/kernel/include/kernel_tls.h:45:20:z_tls_copy	16	static
+/opt/nordic/ncs/v2.6.0/zephyr/arch/arm/core/tls.c:24:8:arch_tls_stack_setup	16	static

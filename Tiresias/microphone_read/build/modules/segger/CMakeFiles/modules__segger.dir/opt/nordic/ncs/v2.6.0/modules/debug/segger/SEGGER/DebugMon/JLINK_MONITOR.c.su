@@ -1,0 +1,3 @@
+/opt/nordic/ncs/v2.6.0/modules/debug/segger/SEGGER/DebugMon/JLINK_MONITOR.c:111:6:JLINK_MONITOR_OnExit	0	static
+/opt/nordic/ncs/v2.6.0/modules/debug/segger/SEGGER/DebugMon/JLINK_MONITOR.c:129:6:JLINK_MONITOR_OnEnter	0	static
+/opt/nordic/ncs/v2.6.0/modules/debug/segger/SEGGER/DebugMon/JLINK_MONITOR.c:147:6:JLINK_MONITOR_OnPoll	0	static

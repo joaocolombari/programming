@@ -1,0 +1,3 @@
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/ccid.c:35:16:ccid_attr_cb	32	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/ccid.c:15:9:bt_ccid_get_value	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/bluetooth/audio/ccid.c:55:28:bt_ccid_find_attr	40	static

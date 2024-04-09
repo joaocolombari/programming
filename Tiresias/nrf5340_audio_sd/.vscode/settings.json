@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "streamctrl.h": "c",
+        "nrf5340_audio_common.h": "c",
+        "macros_common.h": "c",
+        "zbus.h": "c",
+        "cs47l63_spec.h": "c",
+        "cs47l63_reg_conf.h": "c",
+        "cs47l63_comm.h": "c",
+        "stdint.h": "c",
+        "cs47l63.h": "c",
+        "fw_img.h": "c",
+        "stdbool.h": "c",
+        "cs47l63_sym.h": "c",
+        "log.h": "c",
+        "spi.h": "c"
+    }
+}

@@ -1,0 +1,4 @@
+/opt/nordic/ncs/v2.6.0-rc2/modules/crypto/tinycrypt/lib/source/hmac_prng.c:78:13:update	40	static
+/opt/nordic/ncs/v2.6.0-rc2/modules/crypto/tinycrypt/lib/source/hmac_prng.c:130:5:tc_hmac_prng_init	32	static
+/opt/nordic/ncs/v2.6.0-rc2/modules/crypto/tinycrypt/lib/source/hmac_prng.c:154:5:tc_hmac_prng_reseed	16	static
+/opt/nordic/ncs/v2.6.0-rc2/modules/crypto/tinycrypt/lib/source/hmac_prng.c:192:5:tc_hmac_prng_generate	32	static

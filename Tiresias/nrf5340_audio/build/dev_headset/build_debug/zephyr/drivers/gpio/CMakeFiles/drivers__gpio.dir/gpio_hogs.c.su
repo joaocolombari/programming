@@ -1,0 +1,2 @@
+/opt/nordic/ncs/v2.6.0/zephyr/include/zephyr/drivers/gpio.h:961:19:z_impl_gpio_pin_configure	24	static
+/opt/nordic/ncs/v2.6.0/zephyr/drivers/gpio/gpio_hogs.c:93:12:gpio_hogs_init	112	dynamic,bounded

@@ -1,0 +1,6 @@
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/audio/sw_codec_select.c:51:12:sw_codec_sample_rate_convert	32	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/audio/sw_codec_select.c:82:6:sw_codec_is_initialized	0	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/audio/sw_codec_select.c:87:5:sw_codec_encode	3912	dynamic
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/audio/sw_codec_select.c:188:5:sw_codec_decode	3920	dynamic
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/audio/sw_codec_select.c:320:5:sw_codec_uninit	8	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/audio/sw_codec_select.c:369:5:sw_codec_init	24	static

@@ -1,0 +1,3 @@
+osource "/Users/joaovitor/my_boards/boards/shields/*/Kconfig.defconfig"
+osource "/Users/joaovitor/Documents/vscode-study/nordic/nRF_connect_sdk_intermediate/lesson_6/renato_gaucho/boards/shields/*/Kconfig.defconfig"
+osource "/opt/nordic/ncs/v2.6.0/nrf/boards/shields/*/Kconfig.defconfig"

@@ -1,0 +1,5 @@
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/bluetooth/audio/audio.c:72:16:bt_audio_security_check	40	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/bluetooth/audio/audio.c:21:5:bt_audio_data_parse	32	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/bluetooth/audio/audio.c:100:9:bt_audio_read_chrc	32	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/bluetooth/audio/audio.c:121:9:bt_audio_write_chrc	32	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/bluetooth/audio/audio.c:142:9:bt_audio_ccc_cfg_write	8	static

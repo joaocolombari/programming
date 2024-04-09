@@ -1,0 +1,4 @@
+/opt/nordic/ncs/v2.6.0/zephyr/include/zephyr/bluetooth/addr.h:137:20:bt_addr_le_copy	0	static
+/opt/nordic/ncs/v2.6.0/zephyr/include/zephyr/bluetooth/addr.h:242:19:bt_addr_le_to_str	64	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_management/scanning/bt_mgmt_scan.c:20:13:addr_print	88	dynamic,bounded
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_management/scanning/bt_mgmt_scan.c:34:5:bt_mgmt_scan_start	56	static

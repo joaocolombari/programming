@@ -1,0 +1,7 @@
+v 4
+file . "maindec.vhd" "86295624e1edf43dac0bac404e6b21aaa36f0a8c" "20231130172023.838":
+  entity maindec at 10( 292) + 0 on 13;
+  architecture behave of maindec at 25( 639) + 0 on 14;
+file . "risc_pkg.vhd" "8acb5f6d98428f014d70f3e3603fe317ecc2942d" "20231130172023.836":
+  package riscv_pkg at 16( 555) + 0 on 11 body;
+  package body riscv_pkg at 143( 4139) + 0 on 12;

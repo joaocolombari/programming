@@ -1,0 +1,8 @@
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_renderer/bt_rend.c:22:5:bt_rend_volume_up	8	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_renderer/bt_rend.c:38:5:bt_rend_volume_down	8	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_renderer/bt_rend.c:54:5:bt_rend_volume_set	16	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_renderer/bt_rend.c:72:5:bt_rend_volume_mute	16	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_renderer/bt_rend.c:89:5:bt_rend_volume_unmute	8	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_renderer/bt_rend.c:105:5:bt_rend_discover	8	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_renderer/bt_rend.c:121:5:bt_rend_uuid_populate	0	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_renderer/bt_rend.c:134:5:bt_rend_init	8	static

@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "custom_bme280_driver_spi.h": "c",
+        "gpio.h": "c"
+    }
+}

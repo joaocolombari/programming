@@ -1,0 +1,7 @@
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/include/zephyr/drivers/pinctrl.h:342:19:pinctrl_apply_state	16	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/drivers/i2c/i2c_nrfx_twim.c:262:12:i2c_nrfx_twim_recover_bus	16	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/drivers/i2c/i2c_nrfx_twim.c:46:12:i2c_nrfx_twim_transfer	160	dynamic,bounded
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/drivers/i2c/i2c_nrfx_twim.c:208:13:event_handler	8	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/drivers/i2c/i2c_nrfx_twim.c:230:12:i2c_nrfx_twim_configure	8	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/drivers/i2c/i2c_nrfx_twim.c:446:1:irq_connect1	8	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/drivers/i2c/i2c_nrfx_twim.c:332:12:i2c_nrfx_twim_init	64	dynamic,bounded

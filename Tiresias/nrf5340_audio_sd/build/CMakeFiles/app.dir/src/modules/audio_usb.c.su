@@ -1,0 +1,8 @@
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/modules/audio_usb.c:139:13:feature_update	0	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/include/zephyr/net/buf.h:1357:20:net_buf_destroy	16	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/modules/audio_usb.c:81:13:data_received	112	dynamic,bounded
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/modules/audio_usb.c:35:13:data_write	40	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/modules/audio_usb.c:158:5:audio_usb_start	0	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/modules/audio_usb.c:170:6:audio_usb_stop	0	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/modules/audio_usb.c:178:5:audio_usb_disable	8	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/modules/audio_usb.c:193:5:audio_usb_init	8	static

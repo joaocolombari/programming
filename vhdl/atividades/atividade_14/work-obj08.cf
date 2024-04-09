@@ -1,0 +1,7 @@
+v 4
+file . "controller.vhd" "3b76dc7e6c394999e9c5b57765f49ee54a9f490a" "20231130173220.536":
+  entity controller at 14( 468) + 0 on 13;
+  architecture struct of controller at 32( 919) + 0 on 14;
+file . "risc_pkg.vhd" "29af24183611d546c2414ac23a01b58023153b66" "20231130173220.534":
+  package riscv_pkg at 14( 455) + 0 on 11 body;
+  package body riscv_pkg at 166( 4685) + 0 on 12;

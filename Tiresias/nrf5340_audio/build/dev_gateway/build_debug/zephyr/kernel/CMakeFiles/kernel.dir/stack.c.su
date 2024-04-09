@@ -1,0 +1,5 @@
+/opt/nordic/ncs/v2.6.0/zephyr/kernel/stack.c:26:6:k_stack_init	0	static
+/opt/nordic/ncs/v2.6.0/zephyr/kernel/stack.c:42:9:z_impl_k_stack_alloc_init	16	static
+/opt/nordic/ncs/v2.6.0/zephyr/kernel/stack.c:74:5:k_stack_cleanup	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/kernel/stack.c:95:5:z_impl_k_stack_push	24	static
+/opt/nordic/ncs/v2.6.0/zephyr/kernel/stack.c:142:5:z_impl_k_stack_pop	48	static

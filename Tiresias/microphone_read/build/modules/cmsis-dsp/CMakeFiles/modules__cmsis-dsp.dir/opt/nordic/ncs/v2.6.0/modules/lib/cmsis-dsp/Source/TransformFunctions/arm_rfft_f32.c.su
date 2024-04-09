@@ -1,0 +1,3 @@
+/opt/nordic/ncs/v2.6.0/modules/lib/cmsis-dsp/Source/TransformFunctions/arm_rfft_f32.c:146:6:arm_split_rfft_f32	104	static
+/opt/nordic/ncs/v2.6.0/modules/lib/cmsis-dsp/Source/TransformFunctions/arm_rfft_f32.c:89:6:arm_rfft_f32	96	static
+/opt/nordic/ncs/v2.6.0/modules/lib/cmsis-dsp/Source/TransformFunctions/arm_rfft_f32.c:242:6:arm_split_rifft_f32	80	static

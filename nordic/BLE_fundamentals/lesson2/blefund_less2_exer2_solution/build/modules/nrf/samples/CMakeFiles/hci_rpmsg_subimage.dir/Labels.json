@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/joaovitor/Documents/VSCode/nordic/BLE_fundamentals/lesson2/blefund_less2_exer2_solution/build/modules/nrf/samples/CMakeFiles/hci_rpmsg_subimage"
+		},
+		{
+			"file" : "/Users/joaovitor/Documents/VSCode/nordic/BLE_fundamentals/lesson2/blefund_less2_exer2_solution/build/modules/nrf/samples/CMakeFiles/hci_rpmsg_subimage.rule"
+		},
+		{
+			"file" : "/Users/joaovitor/Documents/VSCode/nordic/BLE_fundamentals/lesson2/blefund_less2_exer2_solution/build/modules/nrf/samples/CMakeFiles/hci_rpmsg_subimage-complete.rule"
+		},
+		{
+			"file" : "/Users/joaovitor/Documents/VSCode/nordic/BLE_fundamentals/lesson2/blefund_less2_exer2_solution/build/modules/nrf/samples/hci_rpmsg_subimage-prefix/src/hci_rpmsg_subimage-stamp/hci_rpmsg_subimage-build.rule"
+		},
+		{
+			"file" : "/Users/joaovitor/Documents/VSCode/nordic/BLE_fundamentals/lesson2/blefund_less2_exer2_solution/build/modules/nrf/samples/hci_rpmsg_subimage-prefix/src/hci_rpmsg_subimage-stamp/hci_rpmsg_subimage-configure.rule"
+		},
+		{
+			"file" : "/Users/joaovitor/Documents/VSCode/nordic/BLE_fundamentals/lesson2/blefund_less2_exer2_solution/build/modules/nrf/samples/hci_rpmsg_subimage-prefix/src/hci_rpmsg_subimage-stamp/hci_rpmsg_subimage-download.rule"
+		},
+		{
+			"file" : "/Users/joaovitor/Documents/VSCode/nordic/BLE_fundamentals/lesson2/blefund_less2_exer2_solution/build/modules/nrf/samples/hci_rpmsg_subimage-prefix/src/hci_rpmsg_subimage-stamp/hci_rpmsg_subimage-install.rule"
+		},
+		{
+			"file" : "/Users/joaovitor/Documents/VSCode/nordic/BLE_fundamentals/lesson2/blefund_less2_exer2_solution/build/modules/nrf/samples/hci_rpmsg_subimage-prefix/src/hci_rpmsg_subimage-stamp/hci_rpmsg_subimage-mkdir.rule"
+		},
+		{
+			"file" : "/Users/joaovitor/Documents/VSCode/nordic/BLE_fundamentals/lesson2/blefund_less2_exer2_solution/build/modules/nrf/samples/hci_rpmsg_subimage-prefix/src/hci_rpmsg_subimage-stamp/hci_rpmsg_subimage-patch.rule"
+		},
+		{
+			"file" : "/Users/joaovitor/Documents/VSCode/nordic/BLE_fundamentals/lesson2/blefund_less2_exer2_solution/build/modules/nrf/samples/hci_rpmsg_subimage-prefix/src/hci_rpmsg_subimage-stamp/hci_rpmsg_subimage-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"hci_rpmsg_subimage"
+		],
+		"name" : "hci_rpmsg_subimage"
+	}
+}

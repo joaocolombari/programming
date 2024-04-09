@@ -1,0 +1,7 @@
+v 4
+file . "alu.vhd" "a5d38afafa4c3b1e0f95adcc593fd056ace0bbac" "20231130003320.275":
+  entity alu at 16( 525) + 0 on 21;
+  architecture synth of alu at 33( 850) + 0 on 22;
+file . "risc_pkg.vhd" "5368349507ab54728ca7a41252569953f42594b5" "20231130003320.271":
+  package riscv_pkg at 16( 510) + 0 on 19 body;
+  package body riscv_pkg at 96( 2726) + 0 on 20;

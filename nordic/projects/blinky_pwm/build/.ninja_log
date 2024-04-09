@@ -1,0 +1,15 @@
+# ninja log v5
+0	51	1699544547884624654	images/blinky_pwm-prefix/src/blinky_pwm-stamp/blinky_pwm-mkdir	25fac8953039b901
+53	67	1699544547901557335	images/blinky_pwm-prefix/src/blinky_pwm-stamp/blinky_pwm-download	4485c5e6ce1a987f
+68	79	1699544547912912387	images/blinky_pwm-prefix/src/blinky_pwm-stamp/blinky_pwm-update	f2369a9df5dffe48
+79	90	1699544547923793730	images/blinky_pwm-prefix/src/blinky_pwm-stamp/blinky_pwm-patch	dcb1cd76b37e4906
+90	100	1699544547934518364	images/blinky_pwm-prefix/src/blinky_pwm-stamp/blinky_pwm-configure	5344e8b8838f3da8
+100	2511	0	images/blinky_pwm-prefix/src/blinky_pwm-stamp/blinky_pwm-build	e27573e5b4058b4c
+2511	2522	1699544550355733230	images/blinky_pwm-prefix/src/blinky_pwm-stamp/blinky_pwm-install	4e4d97f4dcd14f8d
+2522	2535	1699544550369218367	images/CMakeFiles/blinky_pwm-complete	fc117cf0984704e1
+2522	2535	1699544550369218367	images/blinky_pwm-prefix/src/blinky_pwm-stamp/blinky_pwm-done	fc117cf0984704e1
+2535	2541	0	CMakeFiles/blinky_pwm_extra_byproducts	e4153d9397e392f7
+2535	2541	0	blinky_pwm/zephyr/zephyr.bin	e4153d9397e392f7
+2535	2541	0	blinky_pwm/zephyr/zephyr.elf	e4153d9397e392f7
+2535	2541	0	blinky_pwm/zephyr/zephyr.hex	e4153d9397e392f7
+2541	2583	1699544550415179865	merged.hex	57cfb0f06d343482

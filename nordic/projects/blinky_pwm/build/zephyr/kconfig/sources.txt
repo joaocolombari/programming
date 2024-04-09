@@ -1,0 +1,9 @@
+/Users/joaovitor/Documents/VSCode/nordic/blinky_pwm/build/Kconfig/Kconfig.sysbuild.modules
+/opt/nordic/ncs/v2.5.0-rc1/nrf/sysbuild/Kconfig.dfu
+/opt/nordic/ncs/v2.5.0-rc1/nrf/sysbuild/Kconfig.netcore
+/opt/nordic/ncs/v2.5.0-rc1/nrf/sysbuild/Kconfig.secureboot
+/opt/nordic/ncs/v2.5.0-rc1/nrf/sysbuild/Kconfig.sysbuild
+/opt/nordic/ncs/v2.5.0-rc1/zephyr/modules/Kconfig.sysbuild
+/opt/nordic/ncs/v2.5.0-rc1/zephyr/share/sysbuild/Kconfig
+/opt/nordic/ncs/v2.5.0-rc1/zephyr/share/sysbuild/images/Kconfig
+/opt/nordic/ncs/v2.5.0-rc1/zephyr/share/sysbuild/images/bootloader/Kconfig

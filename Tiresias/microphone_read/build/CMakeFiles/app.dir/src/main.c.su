@@ -1,0 +1,5 @@
+/Users/joaovitor/Documents/vscode-study/Tiresias/microphone_read/src/main.c:110:12:cs47l63_comm_reg_conf_write	16	static
+/Users/joaovitor/Documents/vscode-study/Tiresias/microphone_read/src/main.c:39:5:hw_codec_volume_set	8	static
+/Users/joaovitor/Documents/vscode-study/Tiresias/microphone_read/src/main.c:66:5:hw_codec_volume_adjust	24	static
+/Users/joaovitor/Documents/vscode-study/Tiresias/microphone_read/src/main.c:135:5:hw_codec_default_conf_enable	8	static
+/Users/joaovitor/Documents/vscode-study/Tiresias/microphone_read/src/main.c:178:5:main	8	static

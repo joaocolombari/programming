@@ -1,0 +1,9 @@
+/opt/nordic/ncs/v2.6.0-rc2/modules/lib/cmsis-dsp/Source/TransformFunctions/arm_rfft_fast_init_f16.c:53:12:arm_rfft_fast_init_32_f16	8	static
+/opt/nordic/ncs/v2.6.0-rc2/modules/lib/cmsis-dsp/Source/TransformFunctions/arm_rfft_fast_init_f16.c:79:12:arm_rfft_fast_init_64_f16	8	static
+/opt/nordic/ncs/v2.6.0-rc2/modules/lib/cmsis-dsp/Source/TransformFunctions/arm_rfft_fast_init_f16.c:105:12:arm_rfft_fast_init_128_f16	8	static
+/opt/nordic/ncs/v2.6.0-rc2/modules/lib/cmsis-dsp/Source/TransformFunctions/arm_rfft_fast_init_f16.c:131:12:arm_rfft_fast_init_256_f16	8	static
+/opt/nordic/ncs/v2.6.0-rc2/modules/lib/cmsis-dsp/Source/TransformFunctions/arm_rfft_fast_init_f16.c:157:12:arm_rfft_fast_init_512_f16	8	static
+/opt/nordic/ncs/v2.6.0-rc2/modules/lib/cmsis-dsp/Source/TransformFunctions/arm_rfft_fast_init_f16.c:183:12:arm_rfft_fast_init_1024_f16	8	static
+/opt/nordic/ncs/v2.6.0-rc2/modules/lib/cmsis-dsp/Source/TransformFunctions/arm_rfft_fast_init_f16.c:208:12:arm_rfft_fast_init_2048_f16	8	static
+/opt/nordic/ncs/v2.6.0-rc2/modules/lib/cmsis-dsp/Source/TransformFunctions/arm_rfft_fast_init_f16.c:234:12:arm_rfft_fast_init_4096_f16	8	static
+/opt/nordic/ncs/v2.6.0-rc2/modules/lib/cmsis-dsp/Source/TransformFunctions/arm_rfft_fast_init_f16.c:279:12:arm_rfft_fast_init_f16	16	static

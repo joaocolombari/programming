@@ -1,0 +1,36 @@
+&spi2 {
+    compatible = "nordic,nrf-spim";
+    status = "okay";
+    cs-gpios = <&gpio0 5 GPIO_ACTIVE_LOW>;
+    pinctrl-0 = <&spi2_default>;
+    pinctrl-1 = <&spi2_sleep>;
+    pinctrl-names = "default", "sleep";
+
+    adxl345: adxl345@0 {
+	compatible = "adi,adxl345";
+	reg = <0>;
+	spi-max-frequency = <4000000>;
+    };
+};
+
+&pinctrl {
+    spi2_default: spi2_default {
+        group1 {
+            psels = <NRF_PSEL(SPIM_SCK, 1, 12)>,    // SCK
+                    <NRF_PSEL(SPIM_MOSI, 1, 13)>,   // SDA
+                    <NRF_PSEL(SPIM_MISO, 1, 14)>;   // SDO
+        };
+    };
+    spi2_sleep: spi2_sleep {
+        group1 {
+            psels = <NRF_PSEL(SPIM_SCK, 1, 12)>,
+                    <NRF_PSEL(SPIM_MOSI, 1, 13)>,
+                    <NRF_PSEL(SPIM_MISO, 1, 14)>;
+            low-power-enable;
+        };
+    };
+};
+
+&pwm0 {
+    status = "disabled";
+};

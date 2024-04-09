@@ -1,0 +1,4 @@
+v 4
+file . "mux3.vhd" "e599a29422cc4edda2be847425193439ca8e95ab" "20231129181838.654":
+  entity mux3 at 14( 438) + 0 on 11;
+  architecture behave of mux3 at 31( 762) + 0 on 12;

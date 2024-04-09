@@ -1,0 +1,2 @@
+osource "/Users/joaovitor/Documents/VSCode/Tiresias/spi_mine/Torbjørn/spi_master/boards/shields/*/Kconfig.shield"
+osource "/opt/nordic/ncs/v2.6.0-rc2/nrf/boards/shields/*/Kconfig.shield"

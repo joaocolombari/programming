@@ -1,0 +1,6 @@
+/opt/nordic/ncs/v2.6.0/zephyr/kernel/mem_slab.c:104:12:create_free_list	0	static
+/opt/nordic/ncs/v2.6.0/zephyr/kernel/mem_slab.c:133:12:init_mem_slab_obj_core_list	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/kernel/mem_slab.c:172:5:k_mem_slab_init	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/kernel/mem_slab.c:208:5:k_mem_slab_alloc	40	static
+/opt/nordic/ncs/v2.6.0/zephyr/kernel/mem_slab.c:253:6:k_mem_slab_free	24	static
+/opt/nordic/ncs/v2.6.0/zephyr/kernel/mem_slab.c:285:5:k_mem_slab_runtime_stats_get	24	static

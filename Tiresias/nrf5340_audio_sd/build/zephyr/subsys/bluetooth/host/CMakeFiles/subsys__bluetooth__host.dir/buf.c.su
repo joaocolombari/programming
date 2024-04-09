@@ -1,0 +1,3 @@
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/bluetooth/host/buf.c:57:17:bt_buf_get_rx	16	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/bluetooth/host/buf.c:88:17:bt_buf_get_cmd_complete	16	static
+/opt/nordic/ncs/v2.6.0-rc2/zephyr/subsys/bluetooth/host/buf.c:104:17:bt_buf_get_evt	8	static

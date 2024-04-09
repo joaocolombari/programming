@@ -1,0 +1,7 @@
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/modules/sd_card.c:37:5:sd_card_list_files	360	dynamic,bounded
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/modules/sd_card.c:123:5:sd_card_open_write_close	304	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/modules/sd_card.c:184:5:sd_card_open_read_close	304	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/modules/sd_card.c:240:5:sd_card_open	328	dynamic,bounded
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/modules/sd_card.c:285:5:sd_card_read	16	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/modules/sd_card.c:306:5:sd_card_close	8	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/modules/sd_card.c:326:5:sd_card_init	16	static

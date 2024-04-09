@@ -1,0 +1,7 @@
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_stream/le_audio.c:16:6:le_audio_ep_state_check	16	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_stream/le_audio.c:39:5:le_audio_freq_hz_get	8	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_stream/le_audio.c:60:5:le_audio_duration_us_get	8	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_stream/le_audio.c:81:5:le_audio_octets_per_frame_get	8	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_stream/le_audio.c:96:5:le_audio_frame_blocks_per_sdu_get	8	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_stream/le_audio.c:112:5:le_audio_bitrate_get	24	static
+/Users/joaovitor/Documents/VSCode/Tiresias/nrf5340_audio/src/bluetooth/bt_stream/le_audio.c:137:5:le_audio_stream_dir_get	16	static

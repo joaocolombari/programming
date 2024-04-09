@@ -1,0 +1,3 @@
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/timing/timing.c:15:6:timing_init	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/timing/timing.c:32:6:timing_start	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/subsys/timing/timing.c:47:6:timing_stop	8	static
