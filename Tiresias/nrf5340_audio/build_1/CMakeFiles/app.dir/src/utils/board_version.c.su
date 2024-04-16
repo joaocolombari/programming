@@ -1,0 +1,10 @@
+/opt/nordic/ncs/v2.6.0/zephyr/include/zephyr/drivers/adc.h:642:19:adc_channel_setup_dt	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/include/zephyr/drivers/gpio.h:961:19:z_impl_gpio_pin_configure	24	static
+/opt/nordic/ncs/v2.6.0/zephyr/include/zephyr/drivers/gpio.h:1024:19:gpio_pin_configure_dt	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/include/zephyr/drivers/gpio.h:1572:19:gpio_pin_set_raw	8	static
+/opt/nordic/ncs/v2.6.0/zephyr/include/zephyr/drivers/gpio.h:1612:19:gpio_pin_set	16	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/utils/board_version.c:91:12:board_version_init	8	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/utils/board_version.c:37:12:divider_value_get	8	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/utils/board_version.c:65:12:version_search	16	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/utils/board_version.c:125:5:board_version_get	8	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/utils/board_version.c:147:5:board_version_valid_check	128	dynamic,bounded

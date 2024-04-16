@@ -1,3 +1,0 @@
-/opt/nordic/ncs/v2.6.0/modules/lib/cmsis-dsp/Source/TransformFunctions/arm_rfft_fast_f32.c:310:6:stage_rfft_f32	56	static
-/opt/nordic/ncs/v2.6.0/modules/lib/cmsis-dsp/Source/TransformFunctions/arm_rfft_fast_f32.c:399:6:merge_rfft_f32	56	static
-/opt/nordic/ncs/v2.6.0/modules/lib/cmsis-dsp/Source/TransformFunctions/arm_rfft_fast_f32.c:597:6:arm_rfft_fast_f32	24	static

@@ -1,3 +1,0 @@
-/opt/nordic/ncs/v2.6.0/zephyr/kernel/mempool.c:12:14:z_heap_aligned_alloc	24	static
-/opt/nordic/ncs/v2.6.0/zephyr/kernel/mempool.c:43:6:k_free	8	static
-/opt/nordic/ncs/v2.6.0/zephyr/kernel/mempool.c:124:7:z_thread_aligned_alloc	16	static

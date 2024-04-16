@@ -1,9 +1,0 @@
-/opt/nordic/ncs/v2.6.0/zephyr/include/zephyr/sys/mutex.h:151:19:sys_mutex_lock	8	static
-/opt/nordic/ncs/v2.6.0/zephyr/lib/libc/common/source/stdlib/malloc.c:137:1:malloc_lock	8	static
-/opt/nordic/ncs/v2.6.0/zephyr/lib/libc/common/source/stdlib/malloc.c:207:12:malloc_prepare	8	static
-/opt/nordic/ncs/toolchains/580e4ef81c/opt/zephyr-sdk/arm-zephyr-eabi/picolibc/include/stdlib.h:137:7:malloc	16	static
-/opt/nordic/ncs/toolchains/580e4ef81c/opt/zephyr-sdk/arm-zephyr-eabi/picolibc/include/stdlib.h:377:8:aligned_alloc	16	static
-/opt/nordic/ncs/toolchains/580e4ef81c/opt/zephyr-sdk/arm-zephyr-eabi/picolibc/include/stdlib.h:162:7:realloc	16	static
-/opt/nordic/ncs/toolchains/580e4ef81c/opt/zephyr-sdk/arm-zephyr-eabi/picolibc/include/string.h:116:6:free	8	static
-/opt/nordic/ncs/toolchains/580e4ef81c/opt/zephyr-sdk/arm-zephyr-eabi/picolibc/include/stdlib.h:122:7:calloc	16	static
-/opt/nordic/ncs/v2.6.0/zephyr/lib/libc/common/source/stdlib/malloc.c:324:7:reallocarray	8	static

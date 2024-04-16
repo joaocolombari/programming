@@ -1,0 +1,16 @@
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/audio/audio_system.c:53:13:sample_rate_valid	0	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/audio/audio_system.c:87:13:audio_headset_configure	0	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/audio/audio_system.c:112:13:encoder_thread	3000	dynamic,bounded
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/audio/audio_system.c:190:6:audio_system_encoder_start	8	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/audio/audio_system.c:196:6:audio_system_encoder_stop	8	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/audio/audio_system.c:201:5:audio_system_encode_test_tone_set	16	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/audio/audio_system.c:226:5:audio_system_encode_test_tone_step	8	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/audio/audio_system.c:259:5:audio_system_config_set	16	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/audio/audio_system.c:284:5:audio_system_decode	64	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/audio/audio_system.c:369:6:audio_system_start	160	dynamic,bounded
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/audio/audio_system.c:498:12:cmd_audio_system_start	8	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/audio/audio_system.c:418:6:audio_system_stop	88	dynamic,bounded
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/audio/audio_system.c:510:12:cmd_audio_system_stop	8	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/audio/audio_system.c:447:5:audio_system_fifo_rx_block_drop	24	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/audio/audio_system.c:465:5:audio_system_decoder_num_ch_get	0	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/audio/audio_system.c:470:5:audio_system_init	8	static

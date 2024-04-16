@@ -1,0 +1,2 @@
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/build_1/modules/libmetal/libmetal/lib/include/metal/system/zephyr/mutex.h:74:20:__metal_mutex_acquire	8	static
+/opt/nordic/ncs/v2.6.0/modules/hal/libmetal/libmetal/lib/system/zephyr/condition.c:17:5:metal_condition_wait	24	static

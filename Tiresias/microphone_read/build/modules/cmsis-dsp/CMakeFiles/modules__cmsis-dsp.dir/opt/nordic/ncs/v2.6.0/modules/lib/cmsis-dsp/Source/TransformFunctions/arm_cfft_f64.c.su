@@ -1,3 +1,0 @@
-/opt/nordic/ncs/v2.6.0/modules/lib/cmsis-dsp/Source/TransformFunctions/arm_cfft_f64.c:57:6:arm_radix4_butterfly_f64	224	static
-/opt/nordic/ncs/v2.6.0/modules/lib/cmsis-dsp/Source/TransformFunctions/arm_cfft_f64.c:191:6:arm_cfft_radix4by2_f64	112	static
-/opt/nordic/ncs/v2.6.0/modules/lib/cmsis-dsp/Source/TransformFunctions/arm_cfft_f64.c:256:6:arm_cfft_f64	32	static

@@ -1,0 +1,6 @@
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/modules/audio_sync_timer_rtc.c:61:17:timestamp_from_rtc_and_timer_get	8	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/modules/audio_sync_timer_rtc.c:124:13:unused_timer_isr_handler	0	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/modules/audio_sync_timer_rtc.c:130:13:rtc_isr_handler	0	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/modules/audio_sync_timer_rtc.c:146:12:audio_sync_timer_init	8	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/modules/audio_sync_timer_rtc.c:71:10:audio_sync_timer_capture	8	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/modules/audio_sync_timer_rtc.c:111:10:audio_sync_timer_capture_get	8	static

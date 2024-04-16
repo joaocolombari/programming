@@ -1,0 +1,6 @@
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/bluetooth/bt_stream/bt_le_audio_tx/bt_le_audio_tx.c:68:12:iso_stream_send	112	dynamic,bounded
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/bluetooth/bt_stream/bt_le_audio_tx/bt_le_audio_tx.c:130:5:bt_le_audio_tx_send	128	dynamic,bounded
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/bluetooth/bt_stream/bt_le_audio_tx/bt_le_audio_tx.c:262:5:bt_le_audio_tx_stream_stopped	8	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/bluetooth/bt_stream/bt_le_audio_tx/bt_le_audio_tx.c:274:5:bt_le_audio_tx_stream_started	0	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/bluetooth/bt_stream/bt_le_audio_tx/bt_le_audio_tx.c:285:5:bt_le_audio_tx_stream_sent	0	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/bluetooth/bt_stream/bt_le_audio_tx/bt_le_audio_tx.c:295:5:bt_le_audio_tx_init	4	static

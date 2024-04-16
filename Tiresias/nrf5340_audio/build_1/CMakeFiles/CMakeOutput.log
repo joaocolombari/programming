@@ -1,0 +1,70 @@
+The target system is: Generic - 3.5.99 - arm
+The host system is: Darwin - 23.1.0 - arm64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/nordic/ncs/toolchains/580e4ef81c/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/build_1/CMakeFiles/3.21.0/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/nordic/ncs/toolchains/580e4ef81c/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/build_1/CMakeFiles/3.21.0/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-zephyr-eabi-gcc (Zephyr SDK 0.16.5) 12.2.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Performing C SOURCE FILE Test check_C__nostartfiles__nostdlib__isystem___opt_nordic_ncs_toolchains_580e4ef81c_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___opt_nordic_ncs_toolchains_580e4ef81c_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0__mcpu_cortex_m33__mthumb__mabi_aapcs__mfpu_fpv5_sp_d16__mfloat_abi_hard__mfp16_format_ieee succeeded with the following output:
+Change Dir: /Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/build_1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/nordic/ncs/toolchains/580e4ef81c/bin/ninja cmTC_c9ecc && [1/2] Building C object CMakeFiles/cmTC_c9ecc.dir/src.c.obj
+[2/2] Linking C executable cmTC_c9ecc
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fmacro_prefix_map__Users_joaovitor_Documents_programming_Tiresias_nrf5340_audio_CMAKE_SOURCE_DIR_C__nostartfiles__nostdlib__isystem___opt_nordic_ncs_toolchains_580e4ef81c_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include___isystem___opt_nordic_ncs_toolchains_580e4ef81c_opt_zephyr_sdk_arm_zephyr_eabi_bin____lib_gcc_arm_zephyr_eabi_12_2_0_include_fixed___Wl___unresolved_symbols_ignore_in_object_files__Wl___entry_0 succeeded with the following output:
+Change Dir: /Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/build_1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/nordic/ncs/toolchains/580e4ef81c/bin/ninja cmTC_7809f && [1/2] Building C object CMakeFiles/cmTC_7809f.dir/src.c.obj
+[2/2] Linking C executable cmTC_7809f
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if files stdatomic.h exist passed with the following output:
+Change Dir: /Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/build_1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/nordic/ncs/toolchains/580e4ef81c/bin/ninja cmTC_da838 && [1/2] Building C object CMakeFiles/cmTC_da838.dir/HAVE_STDATOMIC_H.c.obj
+[2/2] Linking C executable cmTC_da838
+arm-zephyr-eabi-gcc: warning: CMakeFiles/cmTC_da838.dir/HAVE_STDATOMIC_H.c.obj: linker input file unused because linking not done
+
+
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: /Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/build_1/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/nordic/ncs/toolchains/580e4ef81c/bin/ninja cmTC_1affc && [1/2] Building C object CMakeFiles/cmTC_1affc.dir/HAVE_FCNTL_H.c.obj
+[2/2] Linking C executable cmTC_1affc
+arm-zephyr-eabi-gcc: warning: CMakeFiles/cmTC_1affc.dir/HAVE_FCNTL_H.c.obj: linker input file unused because linking not done
+
+
+

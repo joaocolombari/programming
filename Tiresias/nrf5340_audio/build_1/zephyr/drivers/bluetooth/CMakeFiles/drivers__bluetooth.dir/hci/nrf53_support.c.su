@@ -1,0 +1,2 @@
+/opt/nordic/ncs/v2.6.0/zephyr/drivers/bluetooth/hci/nrf53_support.c:19:5:bt_hci_transport_teardown	0	static
+/opt/nordic/ncs/v2.6.0/zephyr/drivers/bluetooth/hci/nrf53_support.c:29:5:bt_hci_transport_setup	0	static

@@ -1,0 +1,4 @@
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/audio/le_audio_rx.c:134:13:audio_datapath_thread	24	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/audio/le_audio_rx.c:160:12:audio_datapath_thread_create	40	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/audio/le_audio_rx.c:41:6:le_audio_rx_data_handler	200	dynamic,bounded
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/audio/le_audio_rx.c:177:5:le_audio_rx_init	8	static

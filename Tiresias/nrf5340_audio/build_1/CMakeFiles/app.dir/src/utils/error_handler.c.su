@@ -1,0 +1,6 @@
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/utils/error_handler.c:59:6:assert_post_action	64	dynamic,bounded
+/opt/nordic/ncs/v2.6.0/zephyr/include/zephyr/drivers/gpio.h:961:19:z_impl_gpio_pin_configure	24	static
+/opt/nordic/ncs/v2.6.0/zephyr/include/zephyr/drivers/gpio.h:1024:19:gpio_pin_configure_dt	8	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/utils/error_handler.c:24:6:error_handler	8	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/utils/error_handler.c:54:6:k_sys_fatal_error_handler	8	static
+/Users/joaovitor/Documents/programming/Tiresias/nrf5340_audio/src/utils/error_handler.c:48:6:bt_ctlr_assert_handle	64	dynamic,bounded
