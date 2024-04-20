@@ -172,6 +172,9 @@
 /Users/joaovitor/Documents/programming/Tiresias/cs_driver/build/zephyr/drivers/gpio/CMakeFiles/rebuild_cache.dir
 /Users/joaovitor/Documents/programming/Tiresias/cs_driver/build/zephyr/drivers/gpio/CMakeFiles/edit_cache.dir
 /Users/joaovitor/Documents/programming/Tiresias/cs_driver/build/zephyr/drivers/gpio/CMakeFiles/drivers__gpio.dir
+/Users/joaovitor/Documents/programming/Tiresias/cs_driver/build/zephyr/drivers/i2s/CMakeFiles/rebuild_cache.dir
+/Users/joaovitor/Documents/programming/Tiresias/cs_driver/build/zephyr/drivers/i2s/CMakeFiles/edit_cache.dir
+/Users/joaovitor/Documents/programming/Tiresias/cs_driver/build/zephyr/drivers/i2s/CMakeFiles/drivers__i2s.dir
 /Users/joaovitor/Documents/programming/Tiresias/cs_driver/build/zephyr/drivers/mbox/CMakeFiles/rebuild_cache.dir
 /Users/joaovitor/Documents/programming/Tiresias/cs_driver/build/zephyr/drivers/mbox/CMakeFiles/edit_cache.dir
 /Users/joaovitor/Documents/programming/Tiresias/cs_driver/build/zephyr/drivers/mbox/CMakeFiles/drivers__mbox.dir
@@ -350,5 +353,7 @@
 /Users/joaovitor/Documents/programming/Tiresias/cs_driver/build/zephyr/cmake/reports/CMakeFiles/ram_report.dir
 /Users/joaovitor/Documents/programming/Tiresias/cs_driver/build/src/drivers/CMakeFiles/rebuild_cache.dir
 /Users/joaovitor/Documents/programming/Tiresias/cs_driver/build/src/drivers/CMakeFiles/edit_cache.dir
+/Users/joaovitor/Documents/programming/Tiresias/cs_driver/build/src/modules/CMakeFiles/rebuild_cache.dir
+/Users/joaovitor/Documents/programming/Tiresias/cs_driver/build/src/modules/CMakeFiles/edit_cache.dir
 /Users/joaovitor/Documents/programming/Tiresias/cs_driver/build/cirrus_logic_bin_dir/CMakeFiles/rebuild_cache.dir
 /Users/joaovitor/Documents/programming/Tiresias/cs_driver/build/cirrus_logic_bin_dir/CMakeFiles/edit_cache.dir

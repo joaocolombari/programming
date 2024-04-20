@@ -8,6 +8,9 @@
         "cs47l63_spec.h": "c",
         "cs47l63_comm.h": "c",
         "thread_stack.h": "c",
-        "spi.h": "c"
+        "spi.h": "c",
+        "kernel.h": "c",
+        "audio_sync_timer.h": "c",
+        "log.h": "c"
     }
 }

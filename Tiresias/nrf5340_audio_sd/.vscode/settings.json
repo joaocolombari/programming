@@ -13,6 +13,8 @@
         "stdbool.h": "c",
         "cs47l63_sym.h": "c",
         "log.h": "c",
-        "spi.h": "c"
+        "spi.h": "c",
+        "audio_sync_timer.h": "c",
+        "audio_i2s.h": "c"
     }
 }

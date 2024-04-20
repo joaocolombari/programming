@@ -8,10 +8,12 @@ project(cs_driver)
 target_sources(app PRIVATE src/main.c)
 
 add_subdirectory(src/drivers)
+add_subdirectory(src/modules)
 
 zephyr_library_include_directories(
     include
     src/drivers
+    src/modules
 )
 
 ## Cirrus Logic

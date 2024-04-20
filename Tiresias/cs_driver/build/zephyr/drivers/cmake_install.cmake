@@ -89,6 +89,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/Users/joaovitor/Documents/programming/Tiresias/cs_driver/build/zephyr/drivers/i2s/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/Users/joaovitor/Documents/programming/Tiresias/cs_driver/build/zephyr/drivers/mbox/cmake_install.cmake")
 endif()
 
