@@ -2,6 +2,7 @@
     "files.associations": {
         "log.h": "c",
         "random": "c",
-        "*.tcc": "c"
+        "*.tcc": "c",
+        "cs47l63_spec.h": "c"
     }
 }
