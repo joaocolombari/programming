@@ -96,11 +96,11 @@ const uint32_t external_mic_enable_configure[][2] = {
 	// 0x000C turns ch1 off and keeps 2 on
 
 	/* Enable PDM mic as digital input for both chs */
-	{ CS47L63_INPUT1_CONTROL1, 0x50021 },
+	{ CS47L63_INPUT2_CONTROL1, 0x50021 },
 
 	/* Un-mute and set gain to 0dB */
 	{ CS47L63_IN2L_CONTROL2, 0x800080 },
-	{ CS47L63_IN2R_CONTROL2, 0x800080 },
+	{ CS47L63_IN2R_CONTROL2, 0x8000BE },
 
 	/* Volume Update */
 	{ CS47L63_INPUT_CONTROL3, 0x20000000 },
@@ -148,7 +148,7 @@ const uint32_t mems_analog_mic_enable_configure[][2] = {
 	{ CS47L63_OUT1L_CONTROL_1, 0x10001 },
 };
 
-/* High Quality Analog Electret and Analog Electret enable */
+/* Analog Electret enable */
 const uint32_t electret_analog_mic_enable_configure[][2] = {
 	{ CS47L63_LDO2_CTRL1, 0x0005 },		// LDO2 Enable Vout = 2.4V
 	{ CS47L63_MICBIAS_CTRL1, 0x00EC },	// Vdd_io disable
@@ -166,7 +166,40 @@ const uint32_t electret_analog_mic_enable_configure[][2] = {
 	/* If more gain is needed this is the register you might 
 		update the value of. In WISCE it is the IN_Rate dile. */
 	{ CS47L63_IN1L_CONTROL2, 0x800080 },
-	{ CS47L63_IN1R_CONTROL2, 0x8000BE },
+	{ CS47L63_IN1R_CONTROL2, 0x8000A0 },
+
+	/* Enable IN1R */
+	{ CS47L63_INPUT_CONTROL, 0x0001 },
+
+	/* Volume Update */
+	{ CS47L63_INPUT_CONTROL3, 0x20000000 },
+
+	/* Send Analog MIC to Output */
+	{ CS47L63_OUT1L_INPUT1, 0x800010 },
+	{ CS47L63_OUT1L_INPUT2, 0x800011 },
+	{ CS47L63_OUTPUT_ENABLE_1, 0x0002 },
+	{ CS47L63_OUT1L_CONTROL_1, 0x10001 },
+};
+
+/* High Quality Analog Electret and Analog Electret enable */
+const uint32_t knowles_analog_mic_enable_configure[][2] = {
+	{ CS47L63_LDO2_CTRL1, 0x0005 },		// LDO2 Enable Vout = 2.4V
+	{ CS47L63_MICBIAS_CTRL1, 0x00EC },	// Vdd_io disable
+	{ CS47L63_MICBIAS_CTRL5, 0x0722 },  // Micb1c source - VddA = 1V8
+
+	/* OBS: use external battery and circuitry to power mics up */
+
+	/* Select IN1_mode as analog input */
+	{ CS47L63_INPUT1_CONTROL1, 0x50020 },
+
+	/* Set IN1RP and IN1RN to single end */
+	{ CS47L63_IN1R_CONTROL1, 0x10000000 },
+
+	/* Un-mute and set gain to 0dB */
+	/* If more gain is needed this is the register you might 
+		update the value of. In WISCE it is the IN_Rate dile. */
+	{ CS47L63_IN1L_CONTROL2, 0x800080 },
+	{ CS47L63_IN1R_CONTROL2, 0x8000A0 },
 
 	/* Enable IN1R */
 	{ CS47L63_INPUT_CONTROL, 0x0001 },
