@@ -152,7 +152,7 @@ int hw_codec_default_conf_enable(void)
 		return ret;
 	}
 
-	ret = cs47l63_comm_reg_conf_write(electret_analog_mic_enable_configure, ARRAY_SIZE(electret_analog_mic_enable_configure));
+	ret = cs47l63_comm_reg_conf_write(mems_analog_mic_enable_configure, ARRAY_SIZE(mems_analog_mic_enable_configure));
 	if (ret) {
 		return ret;
 	}

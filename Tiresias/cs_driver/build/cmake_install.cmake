@@ -1,8 +1,8 @@
-# Install script for directory: /Users/joaovitor/Documents/programming/Tiresias/cs_driver
+# Install script for directory: C:/Users/user/Desktop/programming/Tiresias/cs_driver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files/Zephyr-Kernel")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,27 +34,27 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/opt/nordic/ncs/toolchains/580e4ef81c/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump")
+  set(CMAKE_OBJDUMP "C:/ncs/toolchains/cf2149caf2/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/programming/Tiresias/cs_driver/build/zephyr/cmake_install.cmake")
+  include("C:/Users/user/Desktop/programming/Tiresias/cs_driver/build/zephyr/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/programming/Tiresias/cs_driver/build/src/drivers/cmake_install.cmake")
+  include("C:/Users/user/Desktop/programming/Tiresias/cs_driver/build/src/drivers/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/programming/Tiresias/cs_driver/build/src/modules/cmake_install.cmake")
+  include("C:/Users/user/Desktop/programming/Tiresias/cs_driver/build/src/modules/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/programming/Tiresias/cs_driver/build/cirrus_logic_bin_dir/cmake_install.cmake")
+  include("C:/Users/user/Desktop/programming/Tiresias/cs_driver/build/cirrus_logic_bin_dir/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -65,5 +65,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/joaovitor/Documents/programming/Tiresias/cs_driver/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/user/Desktop/programming/Tiresias/cs_driver/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

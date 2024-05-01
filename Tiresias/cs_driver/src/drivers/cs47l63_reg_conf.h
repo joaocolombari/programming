@@ -119,6 +119,9 @@ const uint32_t mems_analog_mic_enable_configure[][2] = {
 	{ CS47L63_MICBIAS_CTRL1, 0x00EC },	// Vdd_io disable
 	{ CS47L63_MICBIAS_CTRL5, 0x0722 },  // Micb1c source - VddA = 1V8
 	/* OBS: use micbias pin from external DMIC */
+	/* Here we configue IN1RP and IN1RN as diff
+	   inputs while configuring PWR pin from 
+	   header 15 as external pwr for analog mic*/
 
 	/* Select IN1_mode as analog input */
 	{ CS47L63_INPUT1_CONTROL1, 0x50020 },
@@ -130,7 +133,7 @@ const uint32_t mems_analog_mic_enable_configure[][2] = {
 	/* If more gain is needed this is the register you might 
 		update the value of. In WISCE it is the IN_Rate dile. */
 	{ CS47L63_IN1L_CONTROL2, 0x800080 },
-	{ CS47L63_IN1R_CONTROL2, 0x800080 },
+	{ CS47L63_IN1R_CONTROL2, 0x8000BE },
 
 	/* Enable IN1R */
 	{ CS47L63_INPUT_CONTROL, 0x0001 },
@@ -147,6 +150,9 @@ const uint32_t mems_analog_mic_enable_configure[][2] = {
 
 /* High Quality Analog Electret and Analog Electret enable */
 const uint32_t electret_analog_mic_enable_configure[][2] = {
+	{ CS47L63_LDO2_CTRL1, 0x0005 },		// LDO2 Enable Vout = 2.4V
+	{ CS47L63_MICBIAS_CTRL1, 0x00EC },	// Vdd_io disable
+	{ CS47L63_MICBIAS_CTRL5, 0x0722 },  // Micb1c source - VddA = 1V8
 
 	/* OBS: use external battery and circuitry to power mics up */
 
@@ -160,7 +166,7 @@ const uint32_t electret_analog_mic_enable_configure[][2] = {
 	/* If more gain is needed this is the register you might 
 		update the value of. In WISCE it is the IN_Rate dile. */
 	{ CS47L63_IN1L_CONTROL2, 0x800080 },
-	{ CS47L63_IN1R_CONTROL2, 0x800080 },
+	{ CS47L63_IN1R_CONTROL2, 0x8000BE },
 
 	/* Enable IN1R */
 	{ CS47L63_INPUT_CONTROL, 0x0001 },
