@@ -98,7 +98,7 @@ int hw_codec_volume_adjust(int8_t adjustment_db)
 {
 	int ret;
 
-	LOG_DBG("Adj dB in: %d", adjustment_db);
+	LOG_INF("Adj dB in: %d", adjustment_db);
 
 	prev_volume_reg_val = prev_volume_reg_val + (adjustment_db * 2);
 	if (prev_volume_reg_val <= 0) {
