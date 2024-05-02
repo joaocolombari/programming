@@ -11,6 +11,7 @@
         "spi.h": "c",
         "kernel.h": "c",
         "audio_sync_timer.h": "c",
-        "log.h": "c"
+        "log.h": "c",
+        "zbus.h": "c"
     }
 }

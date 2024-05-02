@@ -23,7 +23,11 @@ static struct gpio_callback button_cb_data;
 // Functions 
 void button_pressed(const struct device *dev, struct gpio_callback *cb, uint32_t pins)
 {
+
     gpio_pin_toggle_dt(&led);
+	k_msleep(50); 
+	gpio_pin_toggle_dt(&led);
+
 }
 
 void main(void)

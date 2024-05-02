@@ -4,6 +4,8 @@
 #include <ctype.h>
 #include <zephyr/drivers/gpio.h>
 #include <zephyr/device.h>
+#include <zephyr/devicetree.h>
+#include <zephyr/drivers/gpio.h>
 #include <zephyr/shell/shell.h>
 #include <zephyr/zbus/zbus.h>
 
@@ -15,10 +17,20 @@
 #include <zephyr/logging/log.h>
 LOG_MODULE_REGISTER(Main_app, LOG_LEVEL_INF);
 
+// Defines
+#define SLEEP_TIME_MS   10*60*1000
+#define SW0_NODE	DT_ALIAS(sw0)
+#define SW1_NODE	DT_ALIAS(sw1)
+
 #define VOLUME_ADJUST_STEP_DB 3
 #define BASE_10		      10
 
 // ZBUS_SUBSCRIBER_DEFINE(volume_evt_sub, CONFIG_VOLUME_MSG_SUB_QUEUE_SIZE);
+
+static const struct gpio_dt_spec button0 = GPIO_DT_SPEC_GET(SW0_NODE, gpios);
+static const struct gpio_dt_spec button1 = GPIO_DT_SPEC_GET(SW1_NODE, gpios);
+static struct gpio_callback button0_cb_data;
+static struct gpio_callback button1_cb_data;
 
 static uint32_t prev_volume_reg_val = OUT_VOLUME_DEFAULT;
 
@@ -64,7 +76,7 @@ int hw_codec_volume_set(uint8_t set_val)
 	if (volume_reg_val == 0) {
 		LOG_WRN("Volume at MIN (-64dB)");
 	} else if (volume_reg_val >= MAX_VOLUME_REG_VAL) {
-		LOG_WRN("Volume at MAX (0dB)");
+		LOG_WRN("Volume set at MAX (0dB)");
 		volume_reg_val = MAX_VOLUME_REG_VAL;
 	}
 
@@ -85,37 +97,19 @@ int hw_codec_volume_set(uint8_t set_val)
 int hw_codec_volume_adjust(int8_t adjustment_db)
 {
 	int ret;
-	int32_t new_volume_reg_val;
 
 	LOG_DBG("Adj dB in: %d", adjustment_db);
 
-	if (adjustment_db == 0) {
-		new_volume_reg_val = prev_volume_reg_val;
-	} else {
-		uint32_t volume_reg_val;
-
-		ret = cs47l63_read_reg(&cs47l63_driver, CS47L63_OUT1L_VOLUME_1, &volume_reg_val);
-		if (ret) {
-			LOG_ERR("Failed to get volume from CS47L63");
-			return ret;
-		}
-
-		volume_reg_val &= CS47L63_OUT1L_VOL_MASK;
-
-		/* The adjustment is in dB, 1 bit equals 0.5 dB,
-		 * so multiply by 2 to get increments of 1 dB
-		 */
-		new_volume_reg_val = volume_reg_val + (adjustment_db * 2);
-		if (new_volume_reg_val <= 0) {
-			LOG_WRN("Volume at MIN (-64dB)");
-			new_volume_reg_val = 0;
-		} else if (new_volume_reg_val >= MAX_VOLUME_REG_VAL) {
-			LOG_WRN("Volume at MAX (0dB)");
-			new_volume_reg_val = MAX_VOLUME_REG_VAL;
-		}
+	prev_volume_reg_val = prev_volume_reg_val + (adjustment_db * 2);
+	if (prev_volume_reg_val <= 0) {
+		LOG_WRN("Volume at MIN (-64dB)");
+		prev_volume_reg_val = 0;
+	} else if (prev_volume_reg_val >= MAX_VOLUME_REG_VAL) {
+		LOG_WRN("Volume adj at MAX (0dB)");
+		prev_volume_reg_val = MAX_VOLUME_REG_VAL;
 	}
-
-	ret = hw_codec_volume_set(new_volume_reg_val);
+	
+	ret = hw_codec_volume_set(prev_volume_reg_val);
 	if (ret) {
 		return ret;
 	}
@@ -152,16 +146,10 @@ int hw_codec_default_conf_enable(void)
 		return ret;
 	}
 
-	ret = cs47l63_comm_reg_conf_write(knowles_analog_mic_enable_configure, ARRAY_SIZE(knowles_analog_mic_enable_configure));
+	ret = cs47l63_comm_reg_conf_write(vesper_mic_enable_configure, ARRAY_SIZE(vesper_mic_enable_configure));
 	if (ret) {
 		return ret;
 	}
-
-	/* Line in Enable */ 
-	// ret = cs47l63_comm_reg_conf_write(line_in_enable, ARRAY_SIZE(line_in_enable));
-	// if (ret) {
-	// 	return ret;
-	// }
 
 	/* Toggle FLL to start up CS47L63 */
 	ret = cs47l63_comm_reg_conf_write(FLL_toggle, ARRAY_SIZE(FLL_toggle));
@@ -172,9 +160,36 @@ int hw_codec_default_conf_enable(void)
 	return 0;
 }
 
+void button_volume_increase(void)
+{
+	int ret;
+
+	ret = hw_codec_volume_adjust(VOLUME_ADJUST_STEP_DB);
+	if (ret) {
+		return ret;
+	}
+
+	return 0;
+}
+
+void button_volume_decrease(void)
+{
+	int ret;
+
+	ret = hw_codec_volume_adjust(-VOLUME_ADJUST_STEP_DB);
+	if (ret) {
+		return ret;
+	}
+
+	return 0;
+}
+
+
 int main(void)
 {
 	int ret;
+	
+	uint32_t volume_reg_val;
 
 	LOG_INF("CS47L63 Driver programm");
 
@@ -186,6 +201,20 @@ int main(void)
 
 	LOG_INF("CS47L63 initialized");
 
+	ret = gpio_pin_configure_dt(&button0, GPIO_INPUT);
+	if (ret < 0) {
+		return;
+	}
+
+	LOG_INF("Volume down initialized");
+
+	ret = gpio_pin_configure_dt(&button1, GPIO_INPUT);
+	if (ret < 0) {
+		return ret;
+	}
+
+	LOG_INF("Volume up initialized");
+
 	/* Run a soft reset on start to make sure all registers are default values */
 	ret = cs47l63_comm_reg_conf_write(soft_reset, ARRAY_SIZE(soft_reset));
 	if (ret) {
@@ -196,5 +225,19 @@ int main(void)
 	hw_codec_default_conf_enable();
 	LOG_INF("HW codec defaut configuration done!");
 
-	return 0;
+	while (1)
+	{
+		bool decrease = gpio_pin_get_dt(&button0);
+		bool increase = gpio_pin_get_dt(&button1);
+		// LOG_INF("val is: %s", val);
+		
+		if (decrease) {
+			button_volume_decrease();
+		} 
+		if (increase) {
+			button_volume_increase();
+		}
+
+		k_msleep(100);
+	}
 }
