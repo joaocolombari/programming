@@ -1,4 +1,4 @@
-# Install script for directory: /opt/nordic/ncs/v2.5.0-rc1/zephyr/drivers
+# Install script for directory: /opt/nordic/ncs/v2.6.0/zephyr/drivers
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,71 +34,71 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/opt/nordic/ncs/toolchains/c7cf392be9/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump")
+  set(CMAKE_OBJDUMP "/opt/nordic/ncs/toolchains/580e4ef81c/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/blinky/build/zephyr/drivers/disk/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky/build/zephyr/drivers/disk/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/blinky/build/zephyr/drivers/interrupt_controller/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky/build/zephyr/drivers/interrupt_controller/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/blinky/build/zephyr/drivers/misc/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky/build/zephyr/drivers/misc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/blinky/build/zephyr/drivers/pcie/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky/build/zephyr/drivers/pcie/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/blinky/build/zephyr/drivers/usb/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky/build/zephyr/drivers/usb/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/blinky/build/zephyr/drivers/usb_c/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky/build/zephyr/drivers/usb_c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/blinky/build/zephyr/drivers/clock_control/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky/build/zephyr/drivers/clock_control/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/blinky/build/zephyr/drivers/console/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky/build/zephyr/drivers/console/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/blinky/build/zephyr/drivers/gpio/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky/build/zephyr/drivers/gpio/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/blinky/build/zephyr/drivers/pinctrl/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky/build/zephyr/drivers/pinctrl/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/blinky/build/zephyr/drivers/regulator/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky/build/zephyr/drivers/regulator/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/blinky/build/zephyr/drivers/serial/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky/build/zephyr/drivers/serial/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/blinky/build/zephyr/drivers/timer/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky/build/zephyr/drivers/timer/cmake_install.cmake")
 endif()
 

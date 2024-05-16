@@ -48,9 +48,9 @@ void main(void)
 	if (ret < 0) {
 		return 0;
 	}
-
+	
 	while (1) {
-		ret = gpio_pin_toggle_dt(&led);
+		ret = gpio_pin_set_dt(&led, 1);
 		if (ret < 0) {
 			return 0;
 		}

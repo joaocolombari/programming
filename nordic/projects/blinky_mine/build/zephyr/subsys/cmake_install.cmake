@@ -1,4 +1,4 @@
-# Install script for directory: /opt/nordic/ncs/v2.5.0-rc1/zephyr/subsys
+# Install script for directory: /opt/nordic/ncs/v2.6.0/zephyr/subsys
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,101 +34,106 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/opt/nordic/ncs/toolchains/c7cf392be9/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump")
+  set(CMAKE_OBJDUMP "/opt/nordic/ncs/toolchains/580e4ef81c/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/projects/blinky_mine/build/zephyr/subsys/canbus/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky_mine/build/zephyr/subsys/canbus/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/projects/blinky_mine/build/zephyr/subsys/debug/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky_mine/build/zephyr/subsys/debug/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/projects/blinky_mine/build/zephyr/subsys/fb/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky_mine/build/zephyr/subsys/fb/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/projects/blinky_mine/build/zephyr/subsys/fs/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky_mine/build/zephyr/subsys/fs/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/projects/blinky_mine/build/zephyr/subsys/ipc/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky_mine/build/zephyr/subsys/ipc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/projects/blinky_mine/build/zephyr/subsys/logging/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky_mine/build/zephyr/subsys/logging/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/projects/blinky_mine/build/zephyr/subsys/mgmt/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky_mine/build/zephyr/subsys/mem_mgmt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/projects/blinky_mine/build/zephyr/subsys/modbus/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky_mine/build/zephyr/subsys/mgmt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/projects/blinky_mine/build/zephyr/subsys/pm/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky_mine/build/zephyr/subsys/modbus/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/projects/blinky_mine/build/zephyr/subsys/portability/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky_mine/build/zephyr/subsys/pm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/projects/blinky_mine/build/zephyr/subsys/random/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky_mine/build/zephyr/subsys/portability/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/projects/blinky_mine/build/zephyr/subsys/rtio/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky_mine/build/zephyr/subsys/random/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/projects/blinky_mine/build/zephyr/subsys/sd/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky_mine/build/zephyr/subsys/rtio/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/projects/blinky_mine/build/zephyr/subsys/stats/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky_mine/build/zephyr/subsys/sd/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/projects/blinky_mine/build/zephyr/subsys/storage/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky_mine/build/zephyr/subsys/stats/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/projects/blinky_mine/build/zephyr/subsys/task_wdt/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky_mine/build/zephyr/subsys/storage/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/projects/blinky_mine/build/zephyr/subsys/testsuite/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky_mine/build/zephyr/subsys/task_wdt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/projects/blinky_mine/build/zephyr/subsys/tracing/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky_mine/build/zephyr/subsys/testsuite/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/projects/blinky_mine/build/zephyr/subsys/usb/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky_mine/build/zephyr/subsys/tracing/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky_mine/build/zephyr/subsys/usb/cmake_install.cmake")
 endif()
 
