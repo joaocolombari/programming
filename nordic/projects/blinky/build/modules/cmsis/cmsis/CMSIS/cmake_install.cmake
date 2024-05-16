@@ -1,4 +1,4 @@
-# Install script for directory: /opt/nordic/ncs/v2.5.0-rc1/modules/hal/cmsis/CMSIS
+# Install script for directory: /opt/nordic/ncs/v2.6.0/modules/hal/cmsis/CMSIS
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/opt/nordic/ncs/toolchains/c7cf392be9/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump")
+  set(CMAKE_OBJDUMP "/opt/nordic/ncs/toolchains/580e4ef81c/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/joaovitor/Documents/VSCode/nordic/blinky/build/modules/cmsis/cmsis/CMSIS/Core/cmake_install.cmake")
+  include("/Users/joaovitor/Documents/programming/nordic/projects/blinky/build/modules/cmsis/cmsis/CMSIS/Core/cmake_install.cmake")
 endif()
 

@@ -26,10 +26,10 @@ int main(void)
     while (1) 
     {
 	    nrf_gpio_pin_set(GPIO_PIN_RED);         // Turns RED LED on
-        nrf_gpio_pin_clear(GPIO_PIN_GREEN);     // Turns GREEN LED off
-        k_msleep(SLEEP_TIME_MS);                // Waits a second
-        nrf_gpio_pin_set(GPIO_PIN_GREEN);       // Turns GREEN LED on
-        nrf_gpio_pin_clear(GPIO_PIN_RED);       // Turns RED LED off
+        // nrf_gpio_pin_clear(GPIO_PIN_GREEN);     // Turns GREEN LED off
+        // k_msleep(SLEEP_TIME_MS);                // Waits a second
+        // nrf_gpio_pin_set(GPIO_PIN_GREEN);       // Turns GREEN LED on
+        // nrf_gpio_pin_clear(GPIO_PIN_RED);       // Turns RED LED off
         k_msleep(SLEEP_TIME_MS);                // Waits again
     }
     return 0;
